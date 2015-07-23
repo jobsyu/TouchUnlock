@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "LockView.h"
 
-@interface ViewController ()
+@interface ViewController ()<LockViewDelegate>
 
 @end
 
@@ -17,11 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+-(void)lockViewDidClick:(LockView *)lockView andPwd:(NSString *)pwd
+{
+    NSLog(@"NJViewController %@", pwd);
 }
+
 
 @end

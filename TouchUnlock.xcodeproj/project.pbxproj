@@ -14,6 +14,7 @@
 		C5046A401B5FB487004E1461 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5046A3F1B5FB487004E1461 /* Images.xcassets */; };
 		C5046A431B5FB487004E1461 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5046A411B5FB487004E1461 /* LaunchScreen.xib */; };
 		C5046A4F1B5FB488004E1461 /* TouchUnlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5046A4E1B5FB488004E1461 /* TouchUnlockTests.m */; };
+		C5046A5A1B5FB5D5004E1461 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5046A591B5FB5D5004E1461 /* LockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C5046A481B5FB488004E1461 /* TouchUnlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchUnlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5046A4D1B5FB488004E1461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5046A4E1B5FB488004E1461 /* TouchUnlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchUnlockTests.m; sourceTree = "<group>"; };
+		C5046A581B5FB5D5004E1461 /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		C5046A591B5FB5D5004E1461 /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C5046A3F1B5FB487004E1461 /* Images.xcassets */,
 				C5046A411B5FB487004E1461 /* LaunchScreen.xib */,
 				C5046A321B5FB487004E1461 /* Supporting Files */,
+				C5046A581B5FB5D5004E1461 /* LockView.h */,
+				C5046A591B5FB5D5004E1461 /* LockView.m */,
 			);
 			path = TouchUnlock;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5046A3B1B5FB487004E1461 /* ViewController.m in Sources */,
+				C5046A5A1B5FB5D5004E1461 /* LockView.m in Sources */,
 				C5046A381B5FB487004E1461 /* AppDelegate.m in Sources */,
 				C5046A351B5FB487004E1461 /* main.m in Sources */,
 			);
